@@ -3,10 +3,9 @@ html {
     margin: 0;
     padding: 0;
     background-image: url('bg.jpg');
-    background-position: left top;
+    background-position: left;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-color: transparent;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -28,12 +27,11 @@ body {
     top: 0;
     height: 165px;
     width: 100%;
-    background-color: transparent
 }
 
 #imHeader {
     height: 212px;
-    background-color: transparent;
+    ;
     background-image: url('top.png');
     background-position: top left;
     background-repeat: no-repeat;
@@ -59,7 +57,6 @@ body {
     background-position: left top;
     background-repeat: repeat-y;
     background-attachment: scroll;
-    background-color: transparent
 }
 
 #imContent {
@@ -77,11 +74,10 @@ body {
     bottom: 212px;
     right: 0;
     width: 788px;
-    background-image: url('content.png');
+    background-color: white;
     background-position: right top;
     background-repeat: repeat-y;
     background-attachment: scroll;
-    background-color: transparent
 }
 
 #imFooterBg {
@@ -90,7 +86,6 @@ body {
     bottom: 0;
     height: 90px;
     width: 100%;
-    background-color: transparent
 }
 
 #imFooter {
@@ -98,7 +93,7 @@ body {
     margin: 0 auto;
     height: 212px;
     width: 963px;
-    background-color: transparent;
+    ;
     background-image: url('bottom.png');
     background-position: top left;
     background-repeat: no-repeat;

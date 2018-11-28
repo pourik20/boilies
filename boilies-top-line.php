@@ -1,14 +1,14 @@
-<?php require_once("res/x5engine.php"); ?><!DOCTYPE html><!-- HTML5 -->
+<!DOCTYPE html><!-- HTML5 -->
 <html lang="cz-CZ" dir="ltr">
 	<head>
-	<?php include('head.html') ?>
+	<?php include('head.html') ?>	
 	</head>
 	<body>
 		<div id="imHeaderBg"></div>
 		<div id="imFooterBg"></div>
 		<div id="imPage">
 			<div id="imHeader">
-				<h1 class="imHidden">Vyhledávání - Boilies od Pavla</h1>
+				<h1 class="imHidden">Boilies Top Line - Boilies od Pavla</h1>
 				
 			</div>
 			<a class="imHidden" href="#imGoToCont" title="Přeskočit hlavní nabídku">Přejít na obsah</a>
@@ -34,7 +34,7 @@
 								<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">! NOVINKY !</span></span>
 							</span>
 						</a>
-					</li><li id="imMnMnNode22">
+					</li><li id="imMnMnNode22" class="imMnMnCurrent">
 						<span class="imMnMnFirstBg">
 							<span class="imMnMnLevelImg"></span><span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Boilies</span></span>
 						</span>
@@ -75,7 +75,7 @@
 										<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Bolies Pelets</span></span>
 									</span>
 								</a>
-							</li><li id="imMnMnNode6" class="imMnMnMiddle">
+							</li><li id="imMnMnNode6" class="imMnMnMiddle imMnMnCurrent">
 								<a href="boilies-top-line.html">
 									<span class="imMnMnBorder">
 										<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Boilies Top Line</span></span>
@@ -252,15 +252,81 @@
 			<div id="imContentGraphics"></div>
 			<div id="imContent">
 				<a id="imGoToCont"></a>
-				<h2 id="imPgTitle">Výsledky hledání</h2><?php
-$search = new imSearch();
-$keys = isset($_GET['search']) ? $_GET['search'] : "";
-$page = isset($_GET['page']) ? $_GET['page'] : 0;
-$type = isset($_GET['type']) ? $_GET['type'] : "pages"; ?>
-<div class="searchPageContainer">
-<?php echo $search->search($keys, $page, $type); ?>
-</div>
-
+				<h2 id="imPgTitle">Boilies Top Line</h2>
+				<div id="imBreadcrumb">Boilies</div>
+				<div style="width: 778px; float: left;">
+					<div style="height: 15px;">&nbsp;</div>
+				</div>
+				<div style="width: 778px; float: left;">
+					<div id="imCell_2" class="imGrid[1, 1]"><div id="imCellStyleGraphics_2"></div><div id="imCellStyle_2"><div id="imTextObject_2">
+						<div class="text-tab-content"  id="imTextObject_2_tab0" style="text-align: left;">
+							<div class="text-inner">
+								<p style="text-align: left;"><span class="ff1 cf3 fs28">V t&#233;to nov&#233; řadě V&#225;m nab&#237;z&#237;me to nejlepš&#237; boilies z naš&#237; kaprařsk&#233; kuchyně za 12 let zkušenost&#237; a působen&#237; na trhu. Jedn&#225; se o osvědčen&#233; boilies z našeho sortimentu vytuněn&#233; o př&#237;sně tajn&#233; ingredience - TOP SECRET!!!</span><span class="fs18 cf1 ff0"><br /></span></p>
+							</div>
+						</div>
+					
+					</div>
+					</div></div>
+				</div>
+				<div style="width: 778px; float: left;">
+					<div id="imCell_3" class="imGrid[2, 2]"><div id="imCellStyleGraphics_3"></div><div id="imCellStyle_3">
+					<div id="imProductList_3">
+						<div itemscope itemtype="http://schema.org/Product" class="imProductListCont imOddProduct imLastRow">
+							<meta itemprop="name" content="Top Line Blue Lagoon">
+							<div class="imProductListImage" style="height:132px; line-height:132px;">
+								<img src="images/_vyrn_38dsc_0110--800x800_thumb.jpg" width="132" height="132" alt="Top Line Blue Lagoon" title="Top Line Blue Lagoon" onclick="x5engine.imShowBox({media:[{ type: 'image', url: 'images/_vyrn_38dsc_0110--800x800.jpg', width: 480, height: 480, text: 'Top Line Blue Lagoon', effect: 'none' }]}, 0, this)" style="cursor: pointer;"/>
+							</div>
+							<meta itemprop="image" content="images/_vyrn_38dsc_0110--800x800_thumb.jpg" >
+							<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="imProductListText">
+								<div class="height-2 overflow-controller">
+								<h4 itemprop="name">Top Line Blue Lagoon</h4>
+									<p itemprop="description">1 kg<br />Carp Inferno Baits</p>
+								</div>
+								<div class="product-options">
+									<select id="product_37wqb278k_opt" onchange="x5engine.cart.ui.updateProductListOptions('7wqb278k', this, 'product_37wqb278k');" style="width: 99%; ">
+										<option value="a60miu16">20 mm / 1 kg</option>
+									</select>
+								</div>
+								<span class="imProductListPrice" data-includevat="true" itemscope itemprop="priceSpecification" itemtype="http://schema.org/PriceSpecification">
+									<span id="product_37wqb278k_fullprice">369 Kč</span>
+									<meta itemprop="valueAddedTaxIncluded" content="true">
+									<meta itemprop="priceCurrency" content="CZK">
+								</span>
+								<meta itemprop="price" content="369.1500">
+								<img style="cursor: pointer; position: absolute; bottom: 0; right:0;" width="16" height="16" src="cart/images/cart-add.png" onclick="x5engine.cart.ui.addToCart('7wqb278k', $('#product_37wqb278k_qty').val(), $('#product_37wqb278k_opt').val(), $('#product_37wqb278k_subopt').val(), true);" alt="Přidat" title="Přidat" />
+								<input type="text" id="product_37wqb278k_qty" value="1" style="right: 21px;" />
+							</div>
+						</div>
+						<div itemscope itemtype="http://schema.org/Product" class="imProductListCont imEvenProduct imLastRow imLastCol">
+							<meta itemprop="name" content="Top Line Magic Nut">
+							<div class="imProductListImage" style="height:132px; line-height:132px;">
+								<img src="images/_vyrn_39dsc_0069--800x800_thumb.jpg" width="132" height="132" alt="Top Line Magic Nut" title="Top Line Magic Nut" onclick="x5engine.imShowBox({media:[{ type: 'image', url: 'images/_vyrn_39dsc_0069--800x800.jpg', width: 480, height: 480, text: 'Top Line Magic Nut', effect: 'none' }]}, 0, this)" style="cursor: pointer;"/>
+							</div>
+							<meta itemprop="image" content="images/_vyrn_39dsc_0069--800x800_thumb.jpg" >
+							<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="imProductListText">
+								<div class="height-2 overflow-controller">
+								<h4 itemprop="name">Top Line Magic Nut</h4>
+									<p itemprop="description">1 kg<br />Carp Inferno Bait<br /></p>
+								</div>
+								<div class="product-options">
+									<select id="product_38g859c0m_opt" onchange="x5engine.cart.ui.updateProductListOptions('8g859c0m', this, 'product_38g859c0m');" style="width: 99%; ">
+										<option value="f21rr00v">20 mm / 1 kg</option>
+									</select>
+								</div>
+								<span class="imProductListPrice" data-includevat="true" itemscope itemprop="priceSpecification" itemtype="http://schema.org/PriceSpecification">
+									<span id="product_38g859c0m_fullprice">369 Kč</span>
+									<meta itemprop="valueAddedTaxIncluded" content="true">
+									<meta itemprop="priceCurrency" content="CZK">
+								</span>
+								<meta itemprop="price" content="369.1500">
+								<img style="cursor: pointer; position: absolute; bottom: 0; right:0;" width="16" height="16" src="cart/images/cart-add.png" onclick="x5engine.cart.ui.addToCart('8g859c0m', $('#product_38g859c0m_qty').val(), $('#product_38g859c0m_opt').val(), $('#product_38g859c0m_subopt').val(), true);" alt="Přidat" title="Přidat" />
+								<input type="text" id="product_38g859c0m_qty" value="1" style="right: 21px;" />
+							</div>
+						</div>
+					</div></div></div>
+				</div>
+				
+				<div id="imFooPad" style="height: 116px; float: left;">&nbsp;</div><div id="imBtMn"><a href="index.html">Úvodní stránka</a> | <a href="kontakt.html">Kontakt</a> | <a href="--novinky--.html">! NOVINKY !</a> | <a href="---boilies-pro-rychle-chytani.html">Boilies</a> | <a href="boostery.html">Boostery,Dipy,Pasty</a> | <a href="rohlikove-boilies,-epka.html">Vlhčené,Fluoro,rohlik extrudy</a> | <a href="krmne-pelety,partikl.html">Krmné pelety,Partikl</a> | <a href="krmitkove--sm-si.html">Krmítkové  směsi</a> | <a href="extra-carp.html">Extra Carp,Haybusa,NGT</a> | <a href="---foto--.html">!! FOTO!!</a> | <a href="aquantic.html">AQUANTIC</a> | <a href="cart/index.html" onclick="return x5engine.utils.location('cart/index.html', null, false)">Nákupní košík</a> | <a href="imsitemap.html">Hlavní mapa webu</a></div>
 				<div class="imClear"></div>
 			</div>
 			<div id="imFooter">
@@ -268,7 +334,7 @@ $type = isset($_GET['type']) ? $_GET['type'] : "pages"; ?>
 			</div>
 		</div>
 		<span class="imHidden"><a href="#imGoToCont" title="Obnovit stránku">Návrat na obsah</a> | <a href="#imGoToMenu" title="Obnovit stránku">Návrat do hlavní nabídky</a></span>
-		<script type="text/javascript" src="cart/x5cart.js?31_636301714638326511"></script>
+		<script type="text/javascript" src="cart/x5cart.js?31_636365638996245318"></script>
 
 		<noscript class="imNoScript"><div class="alert alert-red">Chcete-li použít tuto webovou stránku, musíte povolit JavaScript</div></noscript>
 	</body>

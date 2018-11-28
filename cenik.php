@@ -1,4 +1,4 @@
-<?php require_once("res/x5engine.php"); ?><!DOCTYPE html><!-- HTML5 -->
+<!DOCTYPE html><!-- HTML5 -->
 <html lang="cz-CZ" dir="ltr">
 	<head>
 	<?php include('head.html') ?>
@@ -8,7 +8,7 @@
 		<div id="imFooterBg"></div>
 		<div id="imPage">
 			<div id="imHeader">
-				<h1 class="imHidden">Vyhledávání - Boilies od Pavla</h1>
+				<h1 class="imHidden">Ceník - Boilies od Pavla</h1>
 				
 			</div>
 			<a class="imHidden" href="#imGoToCont" title="Přeskočit hlavní nabídku">Přejít na obsah</a>
@@ -49,12 +49,6 @@
 								<a href="boilies-ocean-food-line.html">
 									<span class="imMnMnBorder">
 										<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Boilies Ocean Food Line</span></span>
-									</span>
-								</a>
-							</li><li id="imMnMnNode43" class="imMnMnMiddle">
-								<a href="boilies-xxl.html">
-									<span class="imMnMnBorder">
-										<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Boilies XXL</span></span>
 									</span>
 								</a>
 							</li><li id="imMnMnNode10" class="imMnMnMiddle">
@@ -210,22 +204,10 @@
 										<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Hayabusa</span></span>
 									</span>
 								</a>
-							</li><li id="imMnMnNode38" class="imMnMnMiddle">
+							</li><li id="imMnMnNode38" class="imMnMnLast">
 								<a href="ngt.html">
 									<span class="imMnMnBorder">
 										<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">NGT</span></span>
-									</span>
-								</a>
-							</li><li id="imMnMnNode44" class="imMnMnMiddle">
-								<a href="-elovky.html">
-									<span class="imMnMnBorder">
-										<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Čelovky</span></span>
-									</span>
-								</a>
-							</li><li id="imMnMnNode45" class="imMnMnLast">
-								<a href="signalizatory.html">
-									<span class="imMnMnBorder">
-										<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Signalizátory</span></span>
 									</span>
 								</a>
 							</li>
@@ -236,12 +218,25 @@
 								<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">!! FOTO!!</span></span>
 							</span>
 						</a>
-					</li><li id="imMnMnNode46">
-						<a href="aquantic.html">
+					</li><li id="imMnMnNode19">
+						<a href="-video-.php">
 							<span class="imMnMnFirstBg">
-								<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">AQUANTIC</span></span>
+								<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">!Video!</span></span>
 							</span>
 						</a>
+					</li><li id="imMnMnNode41" class="imMnMnCurrent">
+						<span class="imMnMnFirstBg">
+							<span class="imMnMnLevelImg"></span><span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Velkoobchod</span></span>
+						</span>
+						<ul class="auto">
+							<li id="imMnMnNode42" class="imMnMnCurrent">
+								<a href="cenik.html">
+									<span class="imMnMnBorder">
+										<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">cenik</span></span>
+									</span>
+								</a>
+							</li>
+						</ul>
 					</li><li id="imMnMnNode32">
 				<a href="cart/index.html" onclick="return x5engine.utils.location('cart/index.html', null, false)">		<span class="imMnMnFirstBg">
 							<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Nákupní košík</span></span>
@@ -252,15 +247,10 @@
 			<div id="imContentGraphics"></div>
 			<div id="imContent">
 				<a id="imGoToCont"></a>
-				<h2 id="imPgTitle">Výsledky hledání</h2><?php
-$search = new imSearch();
-$keys = isset($_GET['search']) ? $_GET['search'] : "";
-$page = isset($_GET['page']) ? $_GET['page'] : 0;
-$type = isset($_GET['type']) ? $_GET['type'] : "pages"; ?>
-<div class="searchPageContainer">
-<?php echo $search->search($keys, $page, $type); ?>
-</div>
-
+				<h2 id="imPgTitle">cenik</h2>
+				<div id="imBreadcrumb">Velkoobchod</div>
+				<div style="height: 15px;">&nbsp;</div>
+				<div id="imFooPad" style="height: 350px; float: left;">&nbsp;</div><div id="imBtMn"><a href="index.html">Úvodní stránka</a> | <a href="kontakt.html">Kontakt</a> | <a href="--novinky--.html">! NOVINKY !</a> | <a href="---boilies-pro-rychle-chytani.html">Boilies</a> | <a href="boostery.html">Boostery,Dipy,Pasty</a> | <a href="rohlikove-boilies,-epka.html">Vlhčené,Fluoro,rohlik extrudy</a> | <a href="krmne-pelety,partikl.html">Krmné pelety,Partikl</a> | <a href="krmitkove--sm-si.html">Krmítkové  směsi</a> | <a href="extra-carp.html">Extra Carp,Haybusa,NGT</a> | <a href="---foto--.html">!! FOTO!!</a> | <a href="-video-.php">!Video!</a> | <a href="cenik.html">Velkoobchod</a> | <a href="cart/index.html" onclick="return x5engine.utils.location('cart/index.html', null, false)">Nákupní košík</a> | <a href="imsitemap.html">Hlavní mapa webu</a></div>
 				<div class="imClear"></div>
 			</div>
 			<div id="imFooter">
@@ -268,7 +258,7 @@ $type = isset($_GET['type']) ? $_GET['type'] : "pages"; ?>
 			</div>
 		</div>
 		<span class="imHidden"><a href="#imGoToCont" title="Obnovit stránku">Návrat na obsah</a> | <a href="#imGoToMenu" title="Obnovit stránku">Návrat do hlavní nabídky</a></span>
-		<script type="text/javascript" src="cart/x5cart.js?31_636301714638326511"></script>
+		<script type="text/javascript" src="cart/x5cart.js?31_636263127936497467"></script>
 
 		<noscript class="imNoScript"><div class="alert alert-red">Chcete-li použít tuto webovou stránku, musíte povolit JavaScript</div></noscript>
 	</body>

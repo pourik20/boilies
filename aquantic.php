@@ -1,4 +1,4 @@
-<?php require_once("res/x5engine.php"); ?><!DOCTYPE html><!-- HTML5 -->
+<!DOCTYPE html><!-- HTML5 -->
 <html lang="cz-CZ" dir="ltr">
 	<head>
 	<?php include('head.html') ?>
@@ -8,7 +8,7 @@
 		<div id="imFooterBg"></div>
 		<div id="imPage">
 			<div id="imHeader">
-				<h1 class="imHidden">Vyhledávání - Boilies od Pavla</h1>
+				<h1 class="imHidden">AQUANTIC - Boilies od Pavla</h1>
 				
 			</div>
 			<a class="imHidden" href="#imGoToCont" title="Přeskočit hlavní nabídku">Přejít na obsah</a>
@@ -236,7 +236,7 @@
 								<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">!! FOTO!!</span></span>
 							</span>
 						</a>
-					</li><li id="imMnMnNode46">
+					</li><li id="imMnMnNode46" class="imMnMnCurrent">
 						<a href="aquantic.html">
 							<span class="imMnMnFirstBg">
 								<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">AQUANTIC</span></span>
@@ -252,15 +252,23 @@
 			<div id="imContentGraphics"></div>
 			<div id="imContent">
 				<a id="imGoToCont"></a>
-				<h2 id="imPgTitle">Výsledky hledání</h2><?php
-$search = new imSearch();
-$keys = isset($_GET['search']) ? $_GET['search'] : "";
-$page = isset($_GET['page']) ? $_GET['page'] : 0;
-$type = isset($_GET['type']) ? $_GET['type'] : "pages"; ?>
-<div class="searchPageContainer">
-<?php echo $search->search($keys, $page, $type); ?>
-</div>
-
+				<h2 id="imPgTitle">AQUANTIC</h2>
+				<div style="width: 778px; float: left;">
+					<div id="imCell_1" class="imGrid[0, 0]"><div id="imCellStyleGraphics_1"></div><div id="imCellStyle_1"><div id="imTextObject_1">
+						<div class="text-tab-content"  id="imTextObject_1_tab0" style="text-align: left;">
+							<div class="text-inner">
+								<div style="text-align: center;"><br></div><div style="text-align: center;"><b><span class="fs32 cf1">Team AQUANTIC Plzeň</span></b></div><div style="text-align: center;"><b><br></b></div><div style="text-align: center;"><b><span class="fs32 cf2 cb1">Připravujeme:</span></b></div><div style="text-align: center;"><b><br></b></div><div style="text-align: center;"><b class="fs13"><span class="fs32 cf1">klubovnu a půjčovnu pro mořský rybolov</span></b></div><div style="text-align: center;"><b><br></b></div><div style="text-align: center;"><b class="fs37 cf3 cb1"><a href="http://www.aquantic.cz" class="imCssLink">www.aquantic.cz</a></b></div>
+							</div>
+						</div>
+					
+					</div>
+					</div></div>
+				</div>
+				<div style="width: 778px; float: left;">
+					<div style="height: 15px;">&nbsp;</div>
+				</div>
+				
+				<div id="imFooPad" style="height: 112px; float: left;">&nbsp;</div><div id="imBtMn"><a href="index.html">Úvodní stránka</a> | <a href="kontakt.html">Kontakt</a> | <a href="--novinky--.html">! NOVINKY !</a> | <a href="---boilies-pro-rychle-chytani.html">Boilies</a> | <a href="boostery.html">Boostery,Dipy,Pasty</a> | <a href="rohlikove-boilies,-epka.html">Vlhčené,Fluoro,rohlik extrudy</a> | <a href="krmne-pelety,partikl.html">Krmné pelety,Partikl</a> | <a href="krmitkove--sm-si.html">Krmítkové  směsi</a> | <a href="extra-carp.html">Extra Carp,Haybusa,NGT</a> | <a href="---foto--.html">!! FOTO!!</a> | <a href="aquantic.html">AQUANTIC</a> | <a href="cart/index.html" onclick="return x5engine.utils.location('cart/index.html', null, false)">Nákupní košík</a> | <a href="imsitemap.html">Hlavní mapa webu</a></div>
 				<div class="imClear"></div>
 			</div>
 			<div id="imFooter">
@@ -268,7 +276,7 @@ $type = isset($_GET['type']) ? $_GET['type'] : "pages"; ?>
 			</div>
 		</div>
 		<span class="imHidden"><a href="#imGoToCont" title="Obnovit stránku">Návrat na obsah</a> | <a href="#imGoToMenu" title="Obnovit stránku">Návrat do hlavní nabídky</a></span>
-		<script type="text/javascript" src="cart/x5cart.js?31_636301714638326511"></script>
+		<script type="text/javascript" src="cart/x5cart.js?31_636519157998414806"></script>
 
 		<noscript class="imNoScript"><div class="alert alert-red">Chcete-li použít tuto webovou stránku, musíte povolit JavaScript</div></noscript>
 	</body>

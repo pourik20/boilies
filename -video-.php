@@ -1,26 +1,7 @@
 <!DOCTYPE html><!-- HTML5 -->
 <html lang="cz-CZ" dir="ltr">
 	<head>
-		<title>!Video! - Boilies od Pavla</title>
-		<meta charset="utf-8" />
-		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
-		<meta name="author" content="Fox " />
-		<meta name="generator" content="Incomedia WebSite X5 Evolution 11.0.8.31 - www.websitex5.com" />
-		<meta name="viewport" content="width=963" />
-		<link rel="icon" href="favicon.png" type="image/png" />
-		<link rel="stylesheet" type="text/css" href="style/reset.css" media="screen,print" />
-		<link rel="stylesheet" type="text/css" href="style/print.css" media="print" />
-		<link rel="stylesheet" type="text/css" href="style/style.css" media="screen,print" />
-		<link rel="stylesheet" type="text/css" href="style/template.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="style/menu.css" media="screen" />
-		<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="style/ie.css" media="screen" /><![endif]-->
-		<link rel="stylesheet" type="text/css" href="pcss/-video-.css" media="screen" />
-		<script type="text/javascript" src="res/jquery.js?31"></script>
-		<script type="text/javascript" src="res/x5engine.js?31"></script>
-		<script type="text/javascript">
-			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('Fox '); });
-		</script>
-		
+	<?php include('head.html') ?>
 	</head>
 	<body>
 		<div id="imHeaderBg"></div>

@@ -1,4 +1,4 @@
-<?php require_once("res/x5engine.php"); ?><!DOCTYPE html><!-- HTML5 -->
+<!DOCTYPE html><!-- HTML5 -->
 <html lang="cz-CZ" dir="ltr">
 	<head>
 	<?php include('head.html') ?>
@@ -8,7 +8,7 @@
 		<div id="imFooterBg"></div>
 		<div id="imPage">
 			<div id="imHeader">
-				<h1 class="imHidden">Vyhledávání - Boilies od Pavla</h1>
+				<h1 class="imHidden">Hlavní mapa webu - Boilies od Pavla</h1>
 				
 			</div>
 			<a class="imHidden" href="#imGoToCont" title="Přeskočit hlavní nabídku">Přejít na obsah</a>
@@ -252,15 +252,66 @@
 			<div id="imContentGraphics"></div>
 			<div id="imContent">
 				<a id="imGoToCont"></a>
-				<h2 id="imPgTitle">Výsledky hledání</h2><?php
-$search = new imSearch();
-$keys = isset($_GET['search']) ? $_GET['search'] : "";
-$page = isset($_GET['page']) ? $_GET['page'] : 0;
-$type = isset($_GET['type']) ? $_GET['type'] : "pages"; ?>
-<div class="searchPageContainer">
-<?php echo $search->search($keys, $page, $type); ?>
-</div>
+				<div style="text-align: right; float: right; width: 40%; margin-top: 5px;"><a class="imCssLink" style="cursor: pointer;" href="#" onclick="return x5engine.imSiteMap.foldAll()">Zabalit vše</a> | <a class="imCssLink" style="cursor: pointer;" href="#" onclick="return x5engine.imSiteMap.unfoldAll()">Rozbalit vše</a></div><h2 id="imPgTitle" class="imTitleMargin" style="margin-bottom: 20px; width: 50%; clear: none;">Mapa webu</h2>
+<ul class="imSiteMap">
+	<li><img src="res/impage.gif" /><a class="imCssLink" href="index.html">Úvodní stránka</a></li>
+	<li><img src="res/impage.gif" /><a class="imCssLink" href="kontakt.html">Kontakt</a></li>
+	<li><img src="res/impage.gif" /><a class="imCssLink" href="--novinky--.html">! NOVINKY !</a></li>
+	<li>
+		<span class="imCssLink" onclick="x5engine.imSiteMap.toggleLevel(this)"><img src="res/imfolder_open.gif" /> Boilies</span>
+		<ul class="imSiteMap">
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="---boilies-pro-rychle-chytani.html">!! Boilies pro rychlé chytání</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="boilies-ocean-food-line.html">Boilies Ocean Food Line</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="boilies-xxl.html">Boilies XXL</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="boilies-mini-protei-.html">Boilies Mini Protei </a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="boiies-mini-nutra-.html">Boiies Mini Nutra </a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="bolies-pelets.html">Bolies Pelets</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="boilies-top-line.html">Boilies Top Line</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="boilies-protein-line.html">Boilies Protein Line</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="boilies-nutra-line.html">Boilies Nutra Line</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="boilies-light-line.html">Boilies Light Line</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="boilies--epkove.html">Boilies Řepkové</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="boilies-pop-up.html">Boilies Pop-Up</a></li>
+		</ul>
+	</li>
+	<li>
+		<span class="imCssLink" onclick="x5engine.imSiteMap.toggleLevel(this)"><img src="res/imfolder_open.gif" /> Boostery,Dipy,Pasty</span>
+		<ul class="imSiteMap">
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="boostery.html">Boostery</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="amino-dipy.html">Amino Dipy</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="bolles-pasta-protein-.html">Bolles Pasta Protein </a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="bolies-pasta-nutra-.html">Bolies Pasta Nutra </a></li>
+		</ul>
+	</li>
+	<li>
+		<span class="imCssLink" onclick="x5engine.imSiteMap.toggleLevel(this)"><img src="res/imfolder_open.gif" /> Vlhčené,Fluoro,rohlik extrudy</span>
+		<ul class="imSiteMap">
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="rohlikove-boilies,-epka.html">Rohlíkové boilies,řepka</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="vlh-ene-extrudy.html">Vlhčené extrudy</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="vlh-ene-fluoro-extrudy.html">Vlhčené fluoro extrudy</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="foukana-psenice,kuku-ice.html">Foukaná pšenice,kukuřice</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="chytaci-pelety-m-k-ene.html">Chytací pelety měkčené</a></li>
+		</ul>
+	</li>
+	<li><img src="res/impage.gif" /><a class="imCssLink" href="krmne-pelety,partikl.html">Krmné pelety,Partikl</a></li>
+	<li><img src="res/impage.gif" /><a class="imCssLink" href="krmitkove--sm-si.html">Krmítkové  směsi</a></li>
+	<li>
+		<span class="imCssLink" onclick="x5engine.imSiteMap.toggleLevel(this)"><img src="res/imfolder_open.gif" /> Extra Carp,Haybusa,NGT</span>
+		<ul class="imSiteMap">
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="extra-carp.html">Extra Carp</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="hayabusa.html">Hayabusa</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="ngt.html">NGT</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="-elovky.html">Čelovky</a></li>
+			<li><img src="res/impage.gif" /><a class="imCssLink" href="signalizatory.html">Signalizátory</a></li>
+		</ul>
+	</li>
+	<li><img src="res/impage.gif" /><a class="imCssLink" href="---foto--.html">!! FOTO!!</a></li>
+	<li><img src="res/impage.gif" /><a class="imCssLink" href="aquantic.html">AQUANTIC</a></li>
+	<li>
+		<a href="cart/index.html" class="imCssLink" onclick="return x5engine.utils.location('cart/index.html', null, false)"><img src="res/imfolder_open.gif" /> Nákupní košík</a>
 
+	</li>
+</ul><script>x5engine.boot.push("x5engine.imSiteMap.setup()");</script>
 				<div class="imClear"></div>
 			</div>
 			<div id="imFooter">
@@ -268,7 +319,7 @@ $type = isset($_GET['type']) ? $_GET['type'] : "pages"; ?>
 			</div>
 		</div>
 		<span class="imHidden"><a href="#imGoToCont" title="Obnovit stránku">Návrat na obsah</a> | <a href="#imGoToMenu" title="Obnovit stránku">Návrat do hlavní nabídky</a></span>
-		<script type="text/javascript" src="cart/x5cart.js?31_636301714638326511"></script>
+		<script type="text/javascript" src="cart/x5cart.js?31_636301714638951524"></script>
 
 		<noscript class="imNoScript"><div class="alert alert-red">Chcete-li použít tuto webovou stránku, musíte povolit JavaScript</div></noscript>
 	</body>
